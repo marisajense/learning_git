@@ -16,13 +16,13 @@ end
 
 case age
 when 18
-  'You can now smoke cigarettes'
+  puts 'You can now smoke cigarettes'
 when 21
-  'Yay, drinking and gambling!'
+  puts 'Yay, drinking and gambling!'
 when 26
-  'This is the last milestone, lets rent a car!'
+  puts 'This is the last milestone, lets rent a car!'
 else
-  'Cool, you have an age!'
+  puts 'Cool, you have an age!'
 end
 
 def menu
