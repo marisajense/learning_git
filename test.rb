@@ -11,3 +11,16 @@ if name == 'dave' && age == 35
 else
   puts "Hello, #{name} you are #{age} years old!"
 end
+
+# Feature Branch Code
+
+case age
+when 18
+  'You can now smoke cigarettes'
+when 21
+  'Yay, drinking and gambling!'
+when 26
+  'This is the last milestone, lets rent a car!'
+else
+  'Cool, you have an age!'
+end
